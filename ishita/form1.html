@@ -1,0 +1,95 @@
+<HTML>
+<HEAD>
+<TITLE>DONATE 19BIT0328</TITLE>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$('#form').submit(function (e){
+if(!fun())e.preventDefault();})});
+
+function fun()
+{
+if(!(/^[0-9]{10}$/).test(document.forms["form"]["phone"].value))
+{
+alert("Phone number not valid");
+return false;
+}
+if(!(/^([a-zA-Z\s]){1,30}$/).test(document.forms["form"]["name"].value))
+{
+alert("Invalid Name");
+return false;
+}
+if(!(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/).test(document.forms["form"]["email"].value))
+{
+alert("Invalid Email Id");
+return false;
+}
+$(this).load("shareMyMeal.html");
+return true;
+}
+
+</script>
+<style>
+body{
+margin:10px 450px;
+background-image:url('https://c4.wallpaperflare.com/wallpaper/752/194/470/circles-highlights-background-form-wallpaper-preview.jpg');
+background-repeat:no-repeat;
+background-size:1600px 900px;
+}
+td{
+color:#dff274;
+font-size:20px
+}
+</style>
+</HEAD>
+<title>
+</title>
+<BODY b>
+<div align="center">
+<form id="form" style="background-color:#44c1e3;color:#dff274;; font-size:23px; " >
+<fieldset style="border: 2px solid #dff274 ">
+<h1 style="text-align: center; font-weight:bold"><b>DONATION FORM</b></h1>
+<hr>
+<h2 style="text-align:center"><b>Fill Out the Form</b></h2>
+<table width="400px" height="400px" style="position:relative; margin-top:50px">
+<tr>
+<td>Name:</td>
+<td>
+<input type="text" name="name" size="20" maxlength="50"><br><br></td></tr>
+<tr>
+<td>Address</td>
+<td>
+<textarea rows="6" cols="21"></textarea><br><br></td></tr>
+<tr>
+<td>Phone number:</td>
+<td>
+<input type="number" name="phone"><br><br></td></tr>
+<tr>
+<td>Email</td>
+<td>
+<input type="text" name="email" size="20" maxlength="50"><br><br></td></tr>
+<tr>
+<td><label for="number">How much do you want to pay?<br></label></td>
+<td>
+<input type="text" name="pay" size="20" maxlength="50"><br><br></td></tr>
+<tr>
+<td><label for="brochure">Would you like a brochure?</label></td>
+<td>
+<input type = "checkbox" name="brochure"><br></td></tr>
+<tr>
+<td colspan="2" style="text-align: center">
+<input type="submit" value="SUBMIT"></td></tr>
+<tr>
+<td colspan="2" style="text-align: center">
+<button type="button" ><a href="C:\Users\ishita\Downloads\Web Technology\DA1\shareMyMeal.html">Donate for</a></button></td></tr>
+</table>
+</fieldset>
+</form>
+</div>
+</BODY>
+</HTML>
+
+
+
+
