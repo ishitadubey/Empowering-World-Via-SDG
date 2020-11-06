@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sustainable Development 19BIT0328</title><link rel="icon" href="https://img.favpng.com/22/25/7/sustainable-development-goals-sustainability-united-nations-png-favpng-kH64i7DJA7UNy5HgpwNmZUe6z.jpg"/>
+<script src= 
+"https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<style>
+select{
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.wrapper {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards_wrap .card_item {
+  width: 20%;
+  padding: 10px;
+  height: 20%;
+}
+.cards_wrap .card_inner{
+background: #fff;
+
+}
+.cards_wrap .card_top {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px dashed #e0b316;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #0071bc;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap .card_bottom .card_link {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 528px) {
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+}
+body{
+background-color:#c3f0bb;
+
+}
+#latest{
+box-shadow:2px 2px 2px 0px brown;
+border-radius: 5px;
+border-style: solid;
+border-color:red;
+padding: 3px;
+}
+
+.nav{
+overflow: hidden;
+position:relative;
+margin-top:40px;
+background:#f1faf0;
+height:80px;
+border-bottom: 10px solid #1b4716;
+box-shadow:3px 0px 5px black;
+text-align: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul.nav1 li{
+list-style-type:none;
+display:inline-block;
+padding: 30px 40px;
+font-size:20px;
+font-family: sans-serif;
+transition: 0.5s;
+
+}
+ul.nav1 li:hover{
+background:#edfad4;
+font-weight:bold;
+}
+.explore{
+border-radius: 5px;
+border-style: solid;
+border-color:white;
+border-width:3px;
+padding: 5px;
+}
+.press{
+border-radius: 5px;
+border-style: solid;
+border-color:white;
+border-width:3px;
+padding: 5px;
+}
+.donate{
+color:white;
+background-color:red;
+border-radius: 5px;
+border-style:solid;
+border-color:white;
+border-width:3px;
+padding: 5px;
+}
+ul.nav0{
+padding: 0;
+    list-style: none;
+text-align: center;
+
+}
+ul.nav0 li{
+display: inline-block;
+        position: relative;
+        line-height: 25px;
+        text-align: center;
+}
+ul.nav0 li:hover{
+display:block;
+        color: #002e4d;
+}
+ul.nav0 li ul.nav2{
+min-width: 20%;
+
+        background: #b3e0ff;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 600px;;
+}
+ul.nav0 li:hover ul.nav2{
+display: block;
+}
+ul.nav0 li ul.nav2 li{
+display: block;
+}
+
+</style>
+</head>
+<body style="font-family:Arial">
+<div class="first" style="">
+<div class="1" style="position: relative;font-size: 20px;width: 100%; height:30px;padding: 20px; color: red;background-color:#f1faf0">
+COVID - 19 &ensp;
+<span id="latest" >
+<a href="https://www.livemint.com/news/india/covid-19-update-for-first-time-over-90-000-cases-reported-in-india-in-a-day-11599363306881.html" target="_blank" style="text-decoration:none">Latest Information</a>
+</span>
+</div>
+</div>
+<div class="2" style="position:relative; background-color:#6ea802; height:230px;width:1510px; color:#d4f598">
+<br>
+<span id="2.2" style="font-size:30px; padding: 20px;">EMPOWERING WORLD VIA SDG</span>
+<br>
+<div class="topp" style="text-align:right; font-size:18px;">
+<span class="explore" ><a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank"style="text-decoration:none;color:#d4f598">
+EXPLORE</a> &ensp;
+</span>
+<span class="press">
+<a href="https://www.un.org/sustainabledevelopment/news/" target="_blank" style="text-decoration:none;color:#d4f598">PRESS CENTER </a>
+</span>
+<span class="donate"><a href="C:\Users\ishita\Downloads\Web Technology\DA1\19BIT0328_form1.html" target="_self"style="text-decoration:none;color:#d4f598">
+DONATE</a>
+</span><br><br>
+</div>
+<div class="nav" style="font-size: 20px;">
+<ul class="nav1">
+<li><a href="https://www.undp.org/content/undp/en/home/sustainable-development-goals.html#:~:text=The%20Sustainable%20Development%20Goals%20(SDGs,peace%20and%20prosperity%20by%202030." target="_blank" style="text-decoration:none;color:#000000">WHAT WE DO &ensp;</a></li>
+<li><a href="http://localhost:3001/Name"target="_blank" style="text-decoration:none;color:#000000" >RESEARCH AND REPORTS &ensp;</a></li>
+<li><a href="https://www.un.org/sustainabledevelopment/blog/category/stories-from-the-field/" style="text-decoration:none;color:#000000">STORIES&ensp;</a></li>
+<li><a href="https://www.un.org/en/actnow/"target="_blank" style="text-decoration:none;color:#000000">TAKE ACTION</a></li>
+</ul>
+</div>
+</div>
+<div class="3" style="position:relative;background-color: ;background-image: url('https://scx2.b-cdn.net/gfx/news/hires/2019/22-conservation.jpg'); background-size:900px 700px; background-repeat:no-repeat; height:700px;">
+<div class="portal" style="position:absolute;margin-top:200px;margin-left:950px;text-align: center; font-size: 20px;">
+<div class="19" style="width: 200px; height:20px;border-style: solid;border-radius: 3px;  font-weight:bold; margin-left: 200px;padding: 15px 0px">
+ACT NOW ! <BR><BR><br>
+</div>
+<div class="20" style="width: 400px; height:20px;border-style: solid; border-radius: 3px; font-weight:bold; margin: 30px; margin-left: 100px; padding: 15px 0px">
+GOAL OF THE MONTH <BR><BR>
+</div>
+<div class="21" style="width: 300px; height:20px;border-style: solid;border-radius: 3px; font-weight:bold; margin-left: 150px;padding: 15px 0px"onmouseover="big1(this)" onmouseout="normal1(this)">
+<a href="https://www.un.org/sustainabledevelopment/goal-of-the-month/" style="text-decoration: none">VISIT THE PORTAL </a>
+</div>
+</div>
+</div>
+<div class="4" style="background-color:#f1faf0">
+<div class = "5" style="text-align:center; position:relative;padding-top:20px; padding-bottom:20px; font-size:30px;">
+for every person,
+<label>a fair chance &nbsp;</label>
+<select>
+<option> SELECT</option>
+<option value="education"> EDUCATION </option>
+<option value="health"> HEALTH </option>
+<option value="new"> NEW IDEA </option>
+<option value="safety"> SAFETY </option>
+<option value="help"> HELP </option>
+<option value="clean"> CLEAN WATER </option>
+<option value="play"> PLAY </option>
+</select>
+</div>
+<br>
+<div class="6" style="position:relative; margin-left: 250px;font-size:20px;">
+<div class="image" style="float:left; ">
+<br>
+<img src="https://irp-cdn.multiscreensite.com/6f2c9f57/SDR-2019-Cover.png" width="250px" height="450px" >
+</div>
+<div class="para" style="position:relative;margin-top: 23px; float:left; width:300px; height:450px; background-color:#fafffa;"onmouseover="big2(this)" onmouseout="normal2(this)">
+<div class="para1" style="position:relative; margin-left:15px;margin-top:15px"><b>
+Press release <br>
+9 September 2020 <br><BR></b>
+Business, govt and multilateral agency and UN leaders commit to connecting children and yound people to the internet by 2030.<br><br><BR><br><BR><br><BR>
+&#10094;<a href="https://www.un.org/press/en/2020/sgsm20241.doc.htm" style="text-decoration:none;color:#0c3d0c"><b> Visit the page</b></a><br>
+</div>
+</div>
+</div>
+<div class="6" style="position:relative;margin-top: 23px;margin-left:150px; float:left; width:300px; height:450px; background-color:#fafffa;">
+<img src="https://m.economictimes.com/thumb/msid-69130611,width-1200,height-900,resizemode-4,imgsize-472342/polycrystalline-solar-panels-cheap-yet-efficient-long-lasting-solar-panels.jpg" class="6.3" width="300px" height="150px">
+<div class="para2" style="position:relative; margin-left:15px;">
+<p><b>
+Press release <br>
+4 September 2020 <br></b><br>
+Solar power can safeguard the future for thousands of Yemeni children. Nearly all schools in Yemen have no adequate sources of electricity, which prevents students from having access to safe water and sanitation services.
+</p>
+&#10094;<a href="https://unsdg.un.org/latest/stories/solar-power-can-safeguard-future-thousands-yemeni-children" style="text-decoration:none;color:#0c3d0c" ><b> Visit the page</b></a><br>
+</div>
+</div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="wrapper" style="margin-left:110px;" >
+      <div class="cards_wrap">
+          <div class="card_item">
+              <div class="card_inner">
+                  <div class="card_top">
+                      <img src="https://i.dailymail.co.uk/1s/2020/08/05/08/31584208-0-image-a-7_1596610872318.jpg" class="image"alt="People in a devastated area">
+                  </div>
+                  <div class="card_bottom" >
+                   <div class="card_category">
+                     News
+                   </div>  
+                   <div class="card_info">
+                      <p class="title" style="color:#967812">
+                       Destruction in Lebanon hampers SDGs  
+                      </p>
+                      <p>
+                        Devastating explosions in Beirut
+                        have added to an already terrible
+                        crisis for the people of Lebanon
+                      </p>
+                   </div>
+                   <div class="card_link">
+                    <a href="https://globalnews.ca/news/7257756/beirut-explosions-civil-unrest/"style="text-decoration:none;color:#d48f04">Visit the page</a>
+                   </div>
+                  </div>
+              </div>
+          </div>
+          <div class="card_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="https://thedmcclinic.ie/wp-content/uploads/2020/03/Covid-19-2-1-2664x1332.jpg" class="image"alt="A student is studying">
+                </div>
+                <div class="card_bottom">
+                 <div class="card_category" >
+                   Article
+                 </div>  
+                 <div class="card_info">
+                    <p class="title" style="color:#967812">
+                      Your child's mental health
+                      during COVID-19  
+                    </p>
+                    <p>
+                      How parents can help their
+                      children navigate their feelings
+                      during school reopenings.
+                    </p>
+                 </div>
+                 <div class="card_link">
+                  <a href="https://www.mohfw.gov.in/pdf/mentalhealthchildrean.pdf"style="text-decoration:none; color:#d48f04">Read the article</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="card_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="https://icc.academy/wp-content/uploads/2020/04/family-covid-19.jpg" class="image" alt="A girl wearing mask">
+                </div>
+                <div class="card_bottom">
+                 <div class="card_category">
+                   Tips
+                 </div>  
+                 <div class="card_info">
+                    <p class="title" style="color:#967812">
+                      Tips for families
+                      in COVID-19  
+                    </p>
+                    <p>
+                      What to know about masks and
+                      how to intoduce them to your
+                      families in the age of coronavirus.
+                    </p><BR>
+                 </div>
+                 <div class="card_link">
+                  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/healthy-parenting"style="text-decoration:none; color:#d48f04">Visit the page</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="card_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="https://www.kabulpress.org/IMG/arton11445.jpg?1282223596" class="image" alt="A drinking water from tap">
+                </div>
+                <div class="card_bottom">
+                 <div class="card_category">
+                   Facts
+                 </div>  
+                 <div class="card_info">
+                    <p class="title" style="color:#967812">
+                      10 things you didn't know about water  
+                    </p>
+                    <p>
+                      How unsafe water, santitation and
+                      hygiene puts children at risk
+                    </p><BR>
+                 </div>
+                 <div class="card_link">
+                  <a href="https://www.unicef.org/stories/10-things-you-didnt-know-about-water"style="text-decoration:none; color:#d48f04">Read the story</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="card_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="https://www.unicef.org/sites/default/files/styles/hero_mobile/public/UN0162311.JPG?itok=EFlfdFzC" class="image"alt="Happy children">
+                </div>
+                <div class="card_bottom">
+                 <div class="card_category">
+                   Results
+                 </div>  
+                 <div class="card_info">
+                    <p class="title" style="color:#967812">
+                     Our results
+                    </p>
+                    <p>
+                     We work for the rights of
+                     every child,every day,across
+                     the globe
+                    </p><BR><BR>
+                 </div>
+                 <div class="card_link">
+                  <a href="https://www.savethechildren.org.uk/what-we-do/childrens-rights/united-nations-convention-of-the-rights-of-the-child"style="text-decoration:none ;color:#d48f04">Visit the page</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="card_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="https://www.generationunlimited.org/sites/unicef.org.genunlimited/files/styles/large/public/_GU_Logo-01%20%281%29.png?itok=GDEV5wxw" class="image"alt="Cyberbullying" class="image" alt="Young People">
+                </div>
+                <div class="card_bottom">
+                 <div class="card_category" >
+                   Article
+                 </div>  
+                 <div class="card_info">
+                    <p class="title" style="color:#967812">
+                      Generation Unlimited
+                    </p>
+<p>
+                      If the largest generation of young
+                      people in history is prepared for
+                      the transition to work, the
+                      potential for global progress.</p>
+                 </div>
+                 <div class="card_link">
+                  <a href="https://www.adb.org/news/features/understanding-youths-role-achieving-sustainable-development-goals"style="text-decoration:none ;color:#d48f04">Read the article</a>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="card_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="https://image.freepik.com/free-vector/cyber-bullying-concept_23-2148581705.jpg" class="image"alt="Cyberbullying" class="image"alt="Cyberbullying">
+                </div>
+                <div class="card_bottom">
+                 <div class="card_category">
+                   Facts
+                 </div>  
+                 <div class="card_info">
+                    <p class="title" style="color:#967812">
+                      Cyberbullying
+                    </p>
+                    <p>
+                      10 things teens wan to know about
+                      cyberbullying.
+                    </p><BR><BR>
+                 </div>
+                 <div class="card_link">
+                  <a href="https://www.unicef.org/end-violence/how-to-stop-cyberbullying"style="text-decoration:none; color:#d48f04">Read the article</a>
+                 </div>
+                </div>
+            </div>
+        </div>    
+        <div class="card_item">
+                <div class="card_inner">
+                    <div class="card_top">
+                        <img src="https://www.unicef.org/sites/default/files/styles/large/public/EN_SDG-Mosaic-Tile.jpg?itok=WQcepNqs" class="image"alt="SDGs">
+                    </div>
+                    <div class="card_bottom">
+                     <div class="card_category">
+                       Goals
+                     </div>  
+                     <div class="card_info">
+                        <p class="title" style="color:#967812">
+                          Sustainable
+                          Development  
+                        </p>
+                        <p>
+                          Are we on track to achieve the
+                          Sustainable Development Goals
+                          for children
+                        </p><br>
+                     </div>
+                     <div class="card_link">
+                      <a href="https://www.globalgoals.org/"style="text-decoration:none; color:#d48f04">Visit the page</a>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+      </div>
+<br><br><br><br><br>
+<div>
+<div class="education GFG" style="text-align:center;" >
+<h2 style="color:#85690d"> Education - Every child has a right to learn</h2>
+<p style="border-radius: 3px;padding: 3px; background:#ebc854">On any given school day, over 1 billion children around the world head to class.<br>
+
+More children and adolescents today are enrolled in pre-primary, primary and secondary education than ever before. Yet, for many of them, schooling does not lead to learning.<br>
+
+A lack of trained teachers, inadequate learning materials, makeshift classes and poor sanitation facilities make learning difficult for many children. Others come to school too hungry, sick or exhausted from work or household tasks to benefit from their lessons.<br>
+
+The consequences are grave: An estimated 617 million children and adolescents around the world are unable to reach minimum proficiency levels in reading and mathematics – even though two thirds of them are in school.<br>
+
+This learning crisis is the greatest global challenge to preparing children and adolescents for life, work and active citizenship.<br>
+<br>
+Schooling does not always lead to learning. Worldwide, there are more non-learners in school than out of school.
+<br>
+What’s more, roughly one in five school-aged children are not in school at all.<br>
+
+Children and adolescents are excluded from education for many reasons. Poverty remains one of the most obstinate barriers, with children from the poorest households almost five times more likely to be out of primary school than those from the richest.<br>
+
+Children with disabilities and from ethnic minorities are also more likely to be left behind.<br>
+
+For girls in some parts of the world, education opportunities can be especially limited. Only 66 per cent of countries have achieved gender parity in primary education. Harmful gender norms can have severe effects for boys, too.<br>
+
+Location also keeps children from school. Children from rural areas are more than twice as likely to be out of primary school than their urban peers. In conflict zones, 27 million children are out of school.<br>
+</p>
+</div>
+<div class="health GFG" style="text-align:center">
+<h2 style="color:#85690d">Health - Every child has the right to survive and thrive</h2>
+<p style="border-radius: 3px;padding: 3px; background:#ebc854">
+All children have the right to survive and thrive. Yet, children and adolescents still face significant challenges surviving past infancy and developing to their full potential.<br>
+
+In 2019, 6.1 million children and young adolescents died, mostly from preventable causes. Children under the age of 5 accounted for 5.2 million of these deaths – nearly half of whom were newborn babies.<br><br>
+Every six seconds, a child under the age of 5 dies somewhere in the world.<br>
+What’s more, some 810 women die each day from causes related to pregnancy and childbirth. Many of these deaths can be avoided. But inadequate access to quality health care and life-saving supplies still contributes significantly to preventable maternal and child deaths.<br>
+
+Adolescents are more exposed to accidents and injuries, unintended pregnancies and the physical, mental and economic repercussions of birth defects, HIV and AIDS, and non-communicable diseases such as heart disease, stroke, cancer, diabetes and chronic lung disease.<br>
+
+For children and adolescents in emergency and humanitarian settings, health risks escalate. Life-saving health services are often unavailable or inaccessible, making newborns, children, adolescents and mothers particularly vulnerable to harm.<br>
+</p>
+</div>
+<div class="new GFG" style="text-align:center" >
+<h2 style="color:#85690d">New Idea - Take Action for Sustainable development-goals</h2>
+<p style="border-radius: 3px;padding: 3px; background:#ebc854">On the 75th anniversary of the United Nations and the 5th anniversary of the adoption of the Sustainable Development Goals – in the midst of a pandemic radically transforming our economies and societies – this 30-minute film tells the story of the world as it is, as it was, and as it could be. Directed by renowned film maker Richard Curtis and produced by the documentary film company 72 Films, “Nations United” presents the facts, data, and opportunities we have as a human family to reimagine and reshape the future. The film will be broadcast on numerous television channels, radio stations and streaming services around the world.
+</p>
+</div>
+<div class="safety GFG" style="text-align:center" >
+<h2 style="color:#85690d">Safety</h2>
+<p style="border-radius: 3px;padding: 3px; background:#ebc854">While substantial progress has been made in increasing access to clean drinking water and sanitation, billions of people—mostly in rural areas—still lack these basic services. Worldwide, one in three people do not have access to safe drinking water, two out of five people do not have a basic hand-washing facility with soap and water, and more than 673 million people still practice open defecation.<br><br>
+
+The COVID-19 pandemic has demonstrated the critical importance of sanitation, hygiene and adequate access to clean water for preventing and containing diseases. Hand hygiene saves lives. According to the World Health Organization, handwashing is one of the most effective actions you can take to reduce the spread of pathogens and prevent infections, including the COVID-19 virus. Yet billions of people still lack safe water sanitation, and funding is inadequate.
+</p>
+</div>
+<div class="clean GFG" style="text-align:center" >
+<h2 style="color:#85690d">Clean Water and Sanitation</h2>
+<p style="border-radius: 3px;padding: 3px; background:#ebc854">Availability and access to water, sanitation and hygiene (WASH) services is fundamental to fighting the virus and preserving the health and well-being of millions. COVID-19 will not be stopped without access to safe water for people living in vulnerability, UN experts said. <br><br>
+
+The impacts of COVID-19 could be considerably higher on the urban poor living in slums, who don’t have access to clean water. UN-Habitat is working with partners to facilitate access to running water and  handwashing in informal settlements.<br><br> 
+
+UNICEF is urgently appealing for funding and support to reach more girls and boys with basic water, sanitation and hygiene facilities, especially those children who are cut off from safe water because they live in remote areas, or in places where water is untreated or polluted, or because they are without a home, living in a slum or on the street.<br><br>
+
+In response to the COVID-19 outbreak, the International Organization for Migration (IOM) is adjusting its WASH services to prevent the spread of the disease. This includes continued support to affected, at-risk, low-capacity and fragile countries to secure WASH services and infection prevention control in health facilities. <br><br>
+</p>
+</div>
+</div>
+<div class="joining_img" style="position:relative;background-color:orange ;background-image: url('https://d15l9woddkztht.cloudfront.net/contents/interested-in-working-for-unicef-find-160-job-opportunities-at-impactpool-a1f42b35-5056-44dc-bddf-47e1c2b24537.jpeg'); background-size:1000px 700px; background-repeat:no-repeat; height:700px;">
+<div class="joining_form" style="background-color:orange;position:absolute;margin-top:200px;margin-left:1000px;text-align: center; font-size: 20px;">
+<div class="take_action" style="width: 200px; height:20px;border-style: solid;border-radius: 3px;  font-weight:bold; margin-left: 170px;padding: 15px 0px">
+Take Action <BR>
+</div>
+<div class="information" style="width: 400px; height:20px; border-radius: 3px; margin: 30px; margin-left: 50px; padding: 15px 0px">
+Children need champions. Get involved, speak out, volunteer, or become a donor and give every child a fair chance to succeed<BR><BR>
+</div><BR><BR>
+<div class="join_us" style="width: 300px; height:20px;border-style: solid;border-radius: 3px; font-weight:bold; margin-left: 120px;padding: 15px 0px">
+<a href="C:\Users\ishita\Downloads\Web Technology\DA1\form2.html" style="text-decoration:none">JOIN US</a>
+</div>
+</div>
+</div>    
+<script type="text/javascript">
+$(document).ready(function() { 
+                $("select").on("change", function() { 
+                    $(this).find("option:selected").each(function() { 
+                        var geeks = $(this).attr("value"); 
+                        if (geeks) { 
+                            $(".GFG").not("." + geeks).hide(); 
+                            $("." + geeks).show(); 
+							$(window).scrollTop($("."+geeks).position().top);
+                        } else { 
+                            $(".GFG").hide(); 
+                        } 
+  
+                    }); 
+                }).change(); 
+            });
+window.onscroll=function()
+{
+myFunction()
+};
+var navbar = document.getElementByClassName("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+function big1(x) {
+  x.style.height = "23px";
+  x.style.width = "303px";
+}
+
+function normal1(x) {
+  x.style.height = "20px";
+  x.style.width = "300px";
+}
+
+</script>
+</body>
+</html>
